@@ -16,7 +16,7 @@ const productsMarkUp = productItems.map((product) => {
     )
 }).join(" ");
 
-const buttons = document.querySelectorAll("btn");
+const buttons = document.querySelectorAll("btn")
 
 buttons.forEach(button => button.addEventListener('click',
     function onButtonClick(event) {
